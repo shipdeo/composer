@@ -53,6 +53,3 @@ Make sure to update your `composer.json` to include the necessary dependencies:
 
 Run composer update to install the new dependencies.
 
-
-
-# composer
