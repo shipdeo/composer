@@ -1,0 +1,23 @@
+{
+  "name": "shipdeo/api",
+  "description": "A Shipdeo API package",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Shipdeo\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shipdeo\\ServiceProvider\\ShipdeoServiceProvider"
+      ],
+      "aliases": {
+        "Shipdeo": "Shipdeo\\Facades\\ShipdeoFacade"
+      }
+    }
+  }
+}
